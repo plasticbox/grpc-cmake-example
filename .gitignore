@@ -1,0 +1,11 @@
+**.pb.cc
+**.pb.h
+**.a
+**/Makefile
+**/cmake_install.cmake
+**/CMakeCache.txt
+**/CMakeFiles
+**/.idea/**
+
+/client_sync/client_sync
+/server/server

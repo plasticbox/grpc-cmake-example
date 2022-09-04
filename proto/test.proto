@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package test;
+
+service Wire{
+  rpc Hello(Req) returns (Ack) {}
+  rpc StreamHello(stream Req) returns (stream Ack) {}
+}
+
+message Req {
+  string msg = 1;
+}
+
+message Ack {
+  string msg = 1;
+}
