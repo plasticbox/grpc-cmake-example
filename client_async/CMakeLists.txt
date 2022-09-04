@@ -4,7 +4,6 @@ set(CMAKE_CXX_STANDARD 23)
 set(OPENSSL_ROOT_DIR /opt/homebrew/opt/openssl)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
-include_directories(/opt/homebrew/opt/grpc/include)
 
 add_subdirectory(../proto
     ./proto

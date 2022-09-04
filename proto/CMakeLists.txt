@@ -1,6 +1,6 @@
 include(FindProtobuf)
 find_package(Protobuf REQUIRED)
-message(STATUS "Using protobuf ${protobuf_VERSION}")
+message(STATUS "Using protobuf ${Protobuf_VERSION}")
 
 find_package(gRPC REQUIRED)
 message(STATUS "Using grpc ${gRPC_VERSION}")
