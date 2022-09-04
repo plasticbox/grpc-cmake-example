@@ -7,5 +7,5 @@
 **/CMakeFiles
 **/.idea/**
 
-/client_sync/client_sync
+/client_async/client_sync
 /server/server
